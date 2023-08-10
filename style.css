@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
