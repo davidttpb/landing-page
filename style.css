@@ -72,7 +72,7 @@ a {
     margin-left: 188px;
 }
 
-button {
+#first-button {
     background-color: #3882f6;
     color: white;
     font-size: large;
@@ -153,4 +153,50 @@ button {
     margin-bottom: 120px;
 }
 
+.final-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container  {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    border: 2px solid #3882f6;
+    background-color: #3882f6;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+#final-button {
+    margin-top: 16px;
+    margin-left: 100px;
+    background-color: #3882f6;
+    color: white;
+    font-size: large;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #e5e7eb;
+}
+
+.final-main-section {
+    margin-top: 16px;
+}
+
+#bigger-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#smaller-text {
+    font-size: 18px;
+    color: lightgrey;
+}
 
