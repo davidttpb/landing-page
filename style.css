@@ -17,8 +17,9 @@
 .logo {
     margin-left: 188px;
     color: #f9faf8;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-top: 16px;
+    font-size: 24px;
 }
 
 ul {
@@ -47,8 +48,6 @@ a {
     background-color: #1f2937;
 }
 
-
-
 .main-section-container:fake-image-placeholder {
     flex: 1;
 }
@@ -62,7 +61,7 @@ a {
 
 .main-text-container {
     margin-left: 188px;
-    font-size: 24px;
+    font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
     margin-bottom: 8px;
@@ -77,7 +76,7 @@ button {
     background-color: #3882f6;
     color: white;
     font-size: large;
-    margin-bottom: 8px;
+    margin-bottom: 120px;
     border-radius: 12px;
     padding-left: 30px;
     padding-right: 30px;
@@ -100,7 +99,58 @@ button {
     background-color: gray;
 }
 
+/* section-two */
 
+.square {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10%;
+}
 
+.section-container-title-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.section-child-container-two {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.s-two-text {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: gray;
+
+}
+
+.section-container-two {
+    margin-bottom: 120px;
+}
+
+.quote-parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.quote {
+    margin-top: 120px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-signature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-bottom: 120px;
+}
 
 
