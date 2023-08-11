@@ -1,3 +1,5 @@
+/* Header section */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,13 +12,17 @@
     background-color: #1f2937;
 }
 
+
 .logo {
     margin-left: 188px;
     color: #f9faf8;
+    margin-bottom: 100px;
+    margin-top: 16px;
 }
 
 ul {
     list-style-type: none;
+    margin-top: 16px;
 }
 
 a {
@@ -32,6 +38,45 @@ a {
     margin-top: 8px;
 }
 
+/* Below header */
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.paragraph-container {
+    margin-left: 188px;
+    font-size: large;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.main-text-container {
+    margin-left: 188px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.sign-up-container {
+    margin-left: 188px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: large;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0px;
+}
 
 
 
