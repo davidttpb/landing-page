@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -42,8 +43,14 @@ a {
 
 .section-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     background-color: #1f2937;
+}
+
+
+
+.main-section-container:fake-image-placeholder {
+    flex: 1;
 }
 
 .paragraph-container {
@@ -59,6 +66,7 @@ a {
     color: #f9faf8;
     font-weight: bolder;
     margin-bottom: 8px;
+    border: 0;
 }
 
 .sign-up-container {
@@ -77,6 +85,21 @@ button {
     padding-bottom: 8px;
     border: 0px;
 }
+
+.fake-image-placeholder {
+    margin-right: 164px;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    border: 1px solid gray;
+    background-color: gray;
+}
+
 
 
 
